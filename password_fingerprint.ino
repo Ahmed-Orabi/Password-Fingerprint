@@ -69,36 +69,48 @@ void loop() {
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 1");
+    delay(2000);
+    reset();
     break;
   }
   else if(!digitalRead(pb2)){
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 2");
+    delay(2000);
+    reset();
     break;
   }
   else if(!digitalRead(pb3)){
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 3");
+    delay(2000);
+    reset();
     break;
   }
   else if(!digitalRead(pb4)){
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 4");
+    delay(2000);
+    reset();
     break;
   }
   else if(!digitalRead(pb5)){
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 5");
+    delay(2000);
+    reset();
     break;
   }
   else if(!digitalRead(pb6)){
     lcd.clear();
     lcd.home();
     lcd.print("The ID is : 6");
+    delay(2000);
+    reset();
     break;
   }
     delay(1);
